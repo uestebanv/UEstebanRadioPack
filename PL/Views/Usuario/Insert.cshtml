@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewData["Title"] = "Insert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="conteiner">
+    <div class="row">
+        <h2>Usuarios</h2>
+    </div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-success" id="btnAgregar" onclick="Agregar()">Agregar</button>
+    <button type="button" class="btn btn-primary" id="btnAgregar" onclick="Limpiar()">Limpiar</button>
+
+</div>
+<hr />
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <table id="tblUsuario" class="table table-hover" border="1">
+                <thead>
+                    <tr>
+                        <td class="text-center" style="font-weight:bold;">Nombre Completo</td>
+                        <td class="text-center" style="font-weight:bold;">Correo</td>
+                        <td class="text-center" style="font-weight:bold;">Direccion</td>
+                        <td class="text-center" style="font-weight:bold;">Sexo</td>
+                        <td class="text-center" style="font-weight:bold;">Foto</td>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<hr />
+<div class="modal-footer">
+</div>
+<hr />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="~/js/Usuario/Insert.js"></script>
+
+
